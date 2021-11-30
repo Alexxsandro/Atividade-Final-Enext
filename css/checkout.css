@@ -1,0 +1,30 @@
+body{
+    height: 400px;
+}
+main{
+    transform: translateY(-400px);
+}
+footer{
+    transform: translateY(-400px);
+
+}
+.container-checkout{
+    width: 350px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.container-checkout h3{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 22px;
+    color: rgb(51, 46, 46);
+}
+.container-checkout p{
+    margin-left: 20px;
+    line-height: 30px;
+    color: rgb(128, 121, 121);
+}
+.container-checkout a{
+    text-decoration: underline;
+    color: #000;
+}

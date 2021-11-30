@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Iphone 8 - promoção">
+    <title>Enext</title>
+    <link href="../css/alexsandro-style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-principal">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="../images/LogoEnextBranco.png" alt="Logo Enext" /></a>
+                </div>
+                <div class="pesquisa-header">
+                    <input type="text" id="text" placeholder="busque aqui seu produto" />
+                    <button type="submit" id="buttonHeader"><i class="fa fa-search"></i></button>
+                </div>
+                <div class="login-header" id="login">
+                    <a href="login.html" title="Olá, faça seu login" id="login-1">
+                        <p class="paragrafoNone">Olá, faça seu login ou cadastre-se</p>
+                    </a>
+                </div>
+                <div class="icone-header">
+                    <a href="#"><img src="../images/iconeLoja.svg" alt="icone-Loja" /></a>
+                    <a href="login.html"><img class="aumenta" src="../images/iconeCoração.svg"
+                            alt="icone-Coração" /></a>
+                    <a href="checkout.html"><img src="../images/cestoLoja.png" alt="cesto-Loja" /></a>
+
+                </div>
+            </div>
+            <div class="pesquisaHeaderMobile">
+                <input type="text" placeholder="busque aqui seu produto">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+            <nav>
+                <div id="mySidebar" class="sidebar">
+                    <h3>Compre por departamento</h3>
+                    <hr>
+                    <nav>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
+                    </nav>
+                </div>
+                <div id="main">
+                    <button class="openbtn" onclick="openNav()">☰ </button>
+                </div>
+            </nav>
+            <div class="container-menu-header">
+                <nav class="menu-header">
+                    <ul>
+                        <a href="#" class="informeCepNone" class="menuHeaderNone" title="informe seu CEP">
+                            <li id="informeCep" class="informeCep">informe seu CEP</li>
+                        </a>
+                    </ul>
+                </nav>
+                <div class="containerMenuPrincipal">
+                    <nav class="containerNavMenu">
+                        <ul class="menu-dropdow">
+                            <li class="menuPrincipalLi"><a href="#">Compre por departamento</a>
+                                <ul>
+                                    <li class="itens">
+                                        <a href="#">Mercado</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <a href="#">
+                                <li>mercado</li>
+                            </a>
+                            <a href="#">
+                                <li>celulares</li>
+                            </a>
+                            <a href="#">
+                                <li>brinquedos</li>
+                            </a>
+                            <a href="#">
+                                <li>móveis</li>
+                            </a>
+                            <a href="#">
+                                <li>tv e home theater</li>
+                            </a>
+                            <a href="#">
+                                <li>beleza e perfumaria</li>
+                            </a>
+                            <a href="#">
+                                <li>notebook</li>
+                            </a>
+                            <a href="#">
+                                <li>eletrodoméstico</li>
+                            </a>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+            <div class="informeEnderecoMobile">
+                <a href="#" title="informe seu CEP">
+                    <p>informe seu CEP</p>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <div class="container-product">
+            <h3 class="nomeProduto">Iphone 8 64GB</h3>
+
+            <div class="container-product2">
+                <div class="w3-content w3-display-container">
+                    <img id="imagemRosa1" class="mySlides" src="../images/iphoneRosaFrente.jpg" style="width:120%;"
+                        alt="Iphone Rosa Frente">
+                    <img id="imagemRosa2" class="mySlides" src="../images/iphoneRosaParteTraseira.jpg"
+                        style="width:120%" alt="Iphone Rosa Traseira">
+                    <img id="imagemRosa3" class="mySlides" src="../images/iphoneRosaLado.jpg" style="width:120%"
+                        alt="Iphone Rosa Lado">
+
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+            </div>
+            <div class="container-product3">
+                <div container-product3-preco>
+                    <h3 class="nomeProdutoBaixo">Iphone 8 64GB</h3>
+                    <span class="avaliacao avaliacaoNone">4.8 *****</span><span class="avaliacao avaliacaoNone">5,1mil
+                        Avaliações</span><span class="avaliacaoNone">Marca: Iphone</span>
+                    <p class="banner-oferta">Ofertas Relampago<span class="timer-termina">termina em<span
+                                id="timer"></span></p>
+                    <p class="preco-p"><span class="preco-produto-container">De: R$1,1000</span><span
+                            class="valorPromocao">Por: R$975,00</span><span class="desconto-produto">38% off</span></p>
+                    <p class="corProduto">Cor:
+                        <button onclick="btncorPreto()" class="btn-cor cor-preto"></button>
+                        <button onclick="btncorRosa1()" class="btn-cor cor-rosa"></button>
+                    </p>
+                    <span class="quantidade">Quantidade: <input type="number" id="quantity" name="quantity" min="1"
+                            max="5" placeholder="1"></span>
+                    <button class="btn-produto adicionar">Adicionar ao carrinho</button>
+                    <button class="btn-produto comprar">Comprar Agora</button>
+                    <div class="container-preco-frete">
+                        <span class="freteConsulta">Consultar prazo e valor do frete</span>
+                        <input type="text">
+                        <button>Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="product-specifications-wrapper">
+            <!-- Inicio Section -->
+            <h2>Detalhes Técnicos</h2>
+            <hr class="novo_hr">
+            <table id="techical-details" class="techical-details" role="presentation">
+                <tbody>
+                    <tr>
+                        <th>
+                            RAM
+                        </th>
+                        <td>
+                            6 GB
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Capacidade de armazenamento da memória
+                        </th>
+                        <td>
+                            128 GB
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Tamanho da memória RAM instalada
+                        </th>
+                        <td>
+                            6 GB
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Capacidade de armazenamento digital
+                        </th>
+                        <td>
+                            128 GB
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Pilha(s) ou bateria(s):
+                        </th>
+                        <td>
+                            1 Polímero de lítio baterias ou pilhas necessárias (inclusas).
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Número do modelo
+                        </th>
+                        <td>
+                            MN678JUH
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Tamanho de tela vertical
+                        </th>
+                        <td>
+                            7.55 Polegadas
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Outras características de tela
+                        </th>
+                        <td>
+                            Wireless
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Entrada de usuário
+                        </th>
+                        <td>
+                            Microphone
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Cor
+                        </th>
+                        <td>
+                            Preto / Rosa
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Modelos compatíveis
+                        </th>
+                        <td>
+                            Não se aplica
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Peso do produto
+                        </th>
+                        <td>
+                            157 g
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Dimensões do produto
+                        </th>
+                        <td>
+                            0.7 x 7.57 x 16.05 cm; 157 g
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Marca
+                        </th>
+                        <td>
+                            Iphone
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Funciona a bateria ou pilha?
+                        </th>
+                        <td>
+                            Sim
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            EAN
+                        </th>
+                        <td>
+                            5896478253645
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section><!-- Fim Section -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <span>
+                        <img src="../images/motog.jpg" alt="galaxy S21">
+                        <a href="#">Celular S10 32gb</a>
+                        <div class="container-preco-juros">
+                            <div class="juros">
+                                <p class="especial-juros">Em até <br><strong>6X sem juros</strong></p>
+                            </div>
+                            <div class="preco-vitrine">
+                                <span class="sumir">R$ 280,80</span>
+                                <p>R$ 135,90</p>
+                            </div>
+
+                        </div>
+                        <button type="submit">mais detalhes</button>
+                        <button id="button-perso"></button>
+                    </span>
+                </div>
+                <div class="swiper-slide">
+                    <span>
+                        <img src="../images/iphone-12-family-select-2021.jfif" alt="iphone 12">
+                        <a href="#">Celular S10 32gb</a>
+                        <div class="container-preco-juros">
+                            <div class="juros">
+                                <p class="especial-juros">Em até <br><strong>6X sem juros</strong></p>
+                            </div>
+                            <div class="preco-vitrine">
+                                <span class="sumir">R$ 451,80</span>
+                                <p>R$ 320,90</p>
+                            </div>
+                        </div>
+                        <button type="submit">mais detalhes</button>
+                        <button id="button-perso"></button>
+                    </span>
+                </div>
+                <div class="swiper-slide">
+                    <span>
+                        <img src="../images/motoA7.png" alt="galaxy S21">
+                        <a href="#">Celular S10 32gb</a>
+                        <div class="container-preco-juros">
+                            <div class="juros">
+                                <p class="especial-juros">Em até <br><strong>6X sem juros</strong></p>
+                            </div>
+                            <div class="preco-vitrine">
+                                <span class="sumir">R$ 271,80</span>
+                                <p>R$ 135,90</p>
+                            </div>
+                        </div>
+                        <button type="submit">mais detalhes</button>
+                        <button id="button-perso"></button>
+                    </span>
+                </div>
+                <div class="swiper-slide">
+                    <span>
+                        <img src="../images/galaxyS21 -1.png" alt="galaxy S21">
+                        <a href="#">Celular S10 32gb</a>
+                        <div class="container-preco-juros">
+                            <div class="juros">
+                                <p class="especial-juros">Em até <br><strong>6X sem juros</strong></p>
+                            </div>
+                            <div class="preco-vitrine">
+                                <span class="sumir">R$ 271,80</span>
+                                <p>R$ 135,90</p>
+                            </div>
+                        </div>
+                        <button type="submit">mais detalhes</button>
+                        <button id="button-perso"></button>
+                    </span>
+                </div>
+                <div class="swiper-slide">
+                    <span>
+                        <img src="../images/iphoneRosaFrente.jpg" alt="galaxy S21">
+                        <a href="#">Celular S10 32gb</a>
+                        <div class="container-preco-juros">
+                            <div class="juros">
+                                <p class="especial-juros">Em até <br><strong>6X sem juros</strong></p>
+                            </div>
+                            <div class="preco-vitrine">
+                                <span class="sumir">R$ 271,80</span>
+                                <p>R$ 135,90</p>
+                            </div>
+                        </div>
+                        <button type="submit">mais detalhes</button>
+                        <button id="button-perso"></button>
+                    </span>
+                </div>
+                <div class="swiper-slide">
+                    <span>
+                        <img src="../images/galaxyS21 -1.png" alt="galaxy S21">
+                        <a href="#">Celular S10 32gb</a>
+                        <div class="container-preco-juros">
+                            <div class="juros">
+                                <p class="especial-juros">Em até <br><strong>6X sem juros</strong></p>
+                            </div>
+                            <div class="preco-vitrine">
+                                <span class="sumir">R$ 271,80</span>
+                                <p>R$ 135,90</p>
+                            </div>
+                        </div>
+                        <button type="submit">mais detalhes</button>
+                        <button id="button-perso"></button>
+                    </span>
+                </div>
+                <div class="swiper-slide">
+                    <span>
+                        <img src="../images/galaxyS21 -1.png" alt="galaxy S21">
+                        <a href="#">Celular S10 32gb</a>
+                        <div class="container-preco-juros">
+                            <div class="juros">
+                                <p class="especial-juros">Em até <br><strong>6X sem juros</strong></p>
+                            </div>
+                            <div class="preco-vitrine">
+                                <span class="sumir">R$ 271,80</span>
+                                <p>R$ 135,90</p>
+                            </div>
+                        </div>
+                        <button type="submit">mais detalhes</button>
+                        <button id="button-perso"></button>
+                    </span>
+                </div>
+                <div class="swiper-slide">
+                    <span>
+                        <img src="../images/motoA7.png" alt="galaxy S21">
+                        <a href="#">Celular Moto G</a>
+                        <div class="container-preco-juros">
+                            <div class="juros">
+                                <p class="especial-juros">Em até <br><strong>6X sem juros</strong></p>
+                            </div>
+                            <div class="preco-vitrine">
+                                <span class="sumir">R$ 271,80</span>
+                                <p>R$ 135,90</p>
+                            </div>
+                        </div>
+                        <button type="submit">mais detalhes</button>
+                        <button id="button-perso"></button>
+                    </span>
+                </div>
+                <div class="swiper-slide">
+                    <span>
+                        <img src="../images/iphoneRosaFrente.jpg" alt="galaxy S21">
+                        <a href="#">Iphone 8 32GB</a>
+                        <div class="container-preco-juros">
+                            <div class="juros">
+                                <p class="especial-juros">Em até <br><strong>6X sem juros</strong></p>
+                            </div>
+                            <div class="preco-vitrine">
+                                <span class="sumir">R$ 2,600,80</span>
+                                <p>R$ 2340,90</p>
+                            </div>
+                        </div>
+                        <button type="submit">mais detalhes</button>
+                        <button id="button-perso"></button>
+                    </span>
+                </div>
+            </div>
+            <div class="espaço">
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="banner-final">
+            <div class="container-banner">
+                <div class="container-texto">
+                    <h3>Fique por dentro!</h3>
+                    <p>Cadastre-se para ficar por dentro das novidades
+                        e ganhe 15% de desconto na sua primeira compra em produtos
+                        não promocionados.
+                    </p>
+                </div>
+                <div class="container-input">
+                    <input type="text" id="text" placeholder="Nome">
+                    <input type="email" id="imail" placeholder="E-mail">
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+        <div id=topo-main>
+            <div class="topo-main-text">
+                <a href="#">voltar ao inicio</a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="atendimento-sac h3-padrao">
+                <h3>Atendimento Sac</h3>
+                <span>Loja Virtual: (11) 4578-9087</span>
+                <span>loja Física: (0800 740-8289</span>
+            </div>
+            <div class="inicie-uma-conversa h3-padrao">
+                <h3>Inicie uma conversa</h3>
+                <a href="#">Clique aqui para abrir o chat</a>
+            </div>
+            <div class="envie-um-email h3-padrao">
+                <h3>Envie uma conversa</h3>
+                <a href="#">clique aqui</a>
+            </div>
+            <div class="troca-e-devolução h3-padrao">
+                <h3>troca e devolução</h3>
+                <a href="#">clique aqui</a>
+            </div>
+        </div>
+        <hr class="novo-hr">
+        <div class="container-footer-1">
+            <div class="container-logo-footer alterandoH3">
+                <h3>Enext</h3>
+                <ul>
+                    <a href="https://www.instagram.com/?hl=es">
+                        <li><img src="../images/iconeInstagram.png" alt="icone Instagram"></li>
+                    </a>
+                    <a href="https://www.linkedin.com/login/pt">
+                        <li><img src="../images/iconeLinkedin.png" alt="icone Linkedin"></li>
+                    </a>
+                    <a href="https://es-la.facebook.com/">
+                        <li><img src="../images/iconeFacebook.png" alt="icone Facebook"></li>
+                    </a>
+                </ul>
+                <ul class="icone-vtex-footer iconeVtexSumir">
+                    <li><img src="../images/logoEnextPreto.jpg" alt="logo Enext Footer"></li>
+                    <li><img src="../images/logoVtex.png"></li>
+                </ul>
+            </div>
+            <div class="useEnext1 alterandoH3">
+
+                <ul class="useEnext">
+                    <li class="ulUseEnext">
+                        <h3> Use Enext</h3>
+
+                        <ul>
+                            <a href="">
+                                <li>feminino</li>
+                            </a>
+                            <a href="">
+                                <li>masculino</li>
+                            </a>
+                            <a href="">
+                                <li>Infantil</li>
+                            </a>
+                            <a href="">
+                                <li>plus Size</li>
+                            </a>
+                            <a href="">
+                                <li>lançamentos</li>
+                            </a>
+                            <a href="">
+                                <li>outlet</li>
+                            </a>
+                            <a href="">
+                                <li>Black Friday</li>
+                            </a>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="intitucional alterandoH3">
+                <ul class="useEnext">
+                    <li class="ulUseEnext">
+                        <h3>Institucional</h3>
+
+                        <ul>
+                            <a href="">
+                                <li>feminino</li>
+                            </a>
+                            <a href="">
+                                <li>masculino</li>
+                            </a>
+                            <a href="">
+                                <li>Infantil</li>
+                            </a>
+                            <a href="">
+                                <li>plus Size</li>
+                            </a>
+                            <a href="">
+                                <li>lançamentos</li>
+                            </a>
+                            <a href="">
+                                <li>outlet</li>
+                            </a>
+                            <a href="">
+                                <li>Black Friday</li>
+                            </a>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="duvidas alterandoH3">
+                <ul class="useEnext">
+                    <li class="ulUseEnext">
+                        <h3>Dúvidas</h3>
+
+                        <ul>
+                            <a href="">
+                                <li>feminino</li>
+                            </a>
+                            <a href="">
+                                <li>masculino</li>
+                            </a>
+                            <a href="">
+                                <li>Infantil</li>
+                            </a>
+                            <a href="">
+                                <li>plus Size</li>
+                            </a>
+                            <a href="">
+                                <li>lançamentos</li>
+                            </a>
+                            <a href="">
+                                <li>outlet</li>
+                            </a>
+                            <a href="">
+                                <li>Black Friday</li>
+                            </a>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="pagamento alterandoH3">
+                <h3>Pagamento</h3>
+                <ul>
+                    <a href="#">
+                        <li>
+                            <img src="../images/iconePagamentoElo.png" alt="Pagamento Elo">
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <img src="../images/iconePagamentoVisa.png" alt="Pagamento Visa">
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <img src="../images/iconePagamentoMasterCard.png" alt="pagamento MasterCard">
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <img src="../images/iconePagamentoHipercard.png" alt="Pagamento Hipercard">
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <img src="../images/iconePagamentoPayPal.png" alt="Pagamento PayPal">
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <img src="../images/iconePagamentoPix.png" alt="Pagamento Pix">
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <img src="../images/iconePagamentoBoleto.png" alt="Pagamento Boleto">
+                        </li>
+                    </a>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <div class="containerCopy">
+        <p>Copyright &#169 2021</p>
+
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/script.js">
+        function openNav() {
+            document.getElementById("myNav").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.display = "none";
+        }
+
+    </script>
+</body>
+
+
+</html>

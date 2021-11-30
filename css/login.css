@@ -1,0 +1,97 @@
+/* ----- container-login-fora ----- */
+.container-login-fora{
+    display: flex;
+    flex-direction: row;
+    transform: translateY(-350px);
+    width: 100%;
+    height: 200px;
+}
+.texto-login{
+    width: 500px;
+    margin: 0 auto;
+}
+.texto-login h3{
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: rgb(102, 96, 96);
+}
+.texto-login span{
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    color: rgb(102, 96, 96)
+}
+.texto-login p{
+    line-height: 28px;
+    color: rgb(138, 123, 123);
+}
+.texto-login button{
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 0;
+    width: 150px;
+    height: 20%;
+    text-align: center;
+    color: #fff;
+    background-color: #f80032;
+    box-shadow: 1px 1px 1px 1px #9e8086;
+}
+/* ----- input ----- */
+.input-register{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.input-register h3{
+    color:rgb(102, 96, 96);
+    margin-bottom: 20px;
+}
+.input-register input{
+    padding: 10px;
+    margin-bottom: 50px;
+    border-color: transparent;
+
+}
+.input-register input::placeholder{
+    color: rgb(138, 123, 123);
+}
+.input-register a{
+    text-decoration: underline;
+    color: #f80032;
+    font-size: 14px;
+}
+.input-register button{
+    background-color: #f80032;
+    width: 100px;
+    color: #fff;
+    margin: 60px auto;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px #9e8086;
+
+}
+@media (max-width: 850px) {
+    body{
+        background-color:#fff;
+    }
+    .container-login-fora{
+        width: 100%;
+        margin: 0 auto;
+       display: block;
+       margin-bottom: 250px;
+    }
+    .texto-login{
+        width: 80%;
+    }
+    .input-register{
+        width: 80%;
+        margin-top: 50px;
+    }
+    .input-register button{
+        transform: translateY(-50px);
+        margin-top: 40px;
+        transform: translateX(-110px);
+        width: 160px
+  
+    }
+    
+}

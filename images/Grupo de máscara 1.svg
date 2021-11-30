@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="307" height="255" viewBox="0 0 307 255">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_1" data-name="Retângulo 1" width="307" height="255" transform="translate(407 239)" fill="#ffc400" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_1" data-name="Grupo de máscara 1" transform="translate(-407 -239)" clip-path="url(#clip-path)">
+    <g id="_1491254387-pindestinationmaplocation_82942" data-name="1491254387-pindestinationmaplocation_82942" transform="translate(477.809 238.996)">
+      <path id="Caminho_1" data-name="Caminho 1" d="M128.481,13.92A82.551,82.551,0,0,0,10.216,122.133L82.689,255l72.474-132.871A82.084,82.084,0,0,0,128.481,13.92Zm12.37,100.412L82.706,220.946,24.544,114.332a66.219,66.219,0,0,1,94.88-86.851A65.9,65.9,0,0,1,140.851,114.332Z" fill="#ffc400"/>
+      <path id="Caminho_2" data-name="Caminho 2" d="M82.689,33.993a40.8,40.8,0,1,0,40.8,40.8A40.855,40.855,0,0,0,82.689,33.993Zm0,65.277a24.479,24.479,0,1,1,24.479-24.479A24.509,24.509,0,0,1,82.689,99.27Z" fill="#ffc400"/>
+    </g>
+  </g>
+</svg>

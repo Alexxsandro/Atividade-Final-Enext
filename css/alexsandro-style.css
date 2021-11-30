@@ -1,0 +1,1605 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+    
+}
+body{
+    overflow-X: hidden;
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+/* ----- Header ----- */
+
+.header{
+    width: 100vw;
+    height: 550px;
+    overflow: hidden;
+}
+
+/* ----- Container Principal ----- */
+
+.container-principal{
+    background-color: #f80032;
+    width:100%;
+    height: 84px;
+}
+
+/* ----- Container -----*/
+
+.container{   
+    display: grid;
+    grid-template-columns: 200px 1fr 200px 200px;
+}
+
+/* ------  LOGO ------ */
+
+.logo{
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.logo img{
+    margin: 0 auto;
+    width: 140px;
+    height: 55px;
+}
+
+/* ------ pesquisa-header ------ */
+
+.pesquisa-header{
+    margin-top: 20px;
+}
+.pesquisa-header input{
+    padding: 15px;
+    width: 80%;
+    margin-left: 60px;
+    border-color: transparent;
+    box-shadow: 5px 5px 5px #f80032;
+    background-color: #fff;
+}
+.pesquisa-header button{
+    padding: 15px;
+}
+
+button{
+    margin-left: -70px;
+    width: 10%;
+    border-color: transparent;
+    color: red;
+    background-color: #fff;  
+}
+input::placeholder{
+    font-size: 16px;
+    color:#0a0808;
+}
+
+/* ------- login -------- */
+
+.login-header{
+    width: 150px;
+    display: block;
+    margin-left: 30px;
+    transform: translateY(-18px);
+}
+.login-header p{
+    margin-top: 27px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.login-header::after{
+    content: '';
+    display: block;
+    max-width: 40px;
+    height: 40px;
+    position: relative;
+    top: -36px;
+    left: -40px; 
+    background-image: url(../images/Grupo\ de\ máscara\ 3.png);
+    background-size: cover;
+    background-position: center;   
+}
+.login-header::before{
+    content: '';
+    display: block;
+    max-width: 10px;
+    height: 7px;
+    position: relative;
+    top:58px;
+    left: 120px;
+    margin-right: 10px;
+    margin-top: 12px;
+    background-image: url(../images/Grupo\ 12.png);
+    background-size: cover;
+    background-position: center;
+}
+.login-header img{
+    display: block;
+}
+.login-header p{
+    color: #fff;
+}
+.avaliacao{
+    display: none;
+}
+/* ----- Icone ------ */
+
+.icone-header{
+    margin-top: 8px;
+}
+.icone-header img{
+    width: 35px;
+    margin-right: 20px;
+}
+
+.mensagem{
+    margin-left: 100px;
+}
+.caixa{
+    background-color: #000;
+    margin-top: 200px;
+}
+img{
+    width: 50px;
+    margin-top: 10px;
+}
+.pesquisaHeaderMobile{
+    display: none;
+}
+
+/* ----- menu-header -----*/
+
+.container-menu-header{
+    display: flex;
+    display: block;
+    height: 50px;
+    background-color: #f80032;
+    transform: translateY(-55px);
+}
+.menu-header ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 20px;
+}
+.menu-header a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 13px;
+    margin-left: 1%;
+    font-size: 14px;
+    white-space: nowrap;
+    padding: 10px 5px;
+    transition-duration: 0.5s;
+    transition-property: width;
+    transition-timing-function: ease-in;
+}
+.menu-header a:hover{
+    background-color:#cd0114;
+}
+.informeCep::after{
+    content:'';
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin-top: -20px;/*transform*/
+    margin-left: -22px;/*transform*/
+    background-image: url('../images/Grupo\ de\ máscara\ 1.svg');
+    background-size: cover;
+}
+.informeCep{
+    margin-right: 100px;
+}
+
+/* ----- menu-mobile ----- */
+
+.pesquisaHeaderMobile{
+    display: none;
+    width: 100%;
+    height: 50px;
+    background-color: #f80032;
+    box-shadow: 2px 2px 2px 10px #f80032;
+}
+.pesquisaHeaderMobile input{
+    padding: 10px;
+    width: 86%;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-color: transparent;
+}
+.pesquisaHeaderMobile input::placeholder{
+    color: rgb(119, 112, 112);
+}
+
+/* ----- Menu Principal Desktop ----- */
+
+.containerMenuPrincipal{
+    background-color:#fff;
+    box-shadow: 2px 2px 4px rgb(219, 214, 214);
+}
+.containerMenuPrincipal:hover{
+    box-shadow: 2px 2px 4px rgb(219, 214, 214);
+}
+.containerNavMenu ul{
+    display: flex;
+    list-style-type: none;  
+}
+.containerNavMenu ul li{
+    margin-left: 15px;
+    white-space: nowrap;
+}
+.menuPrincipalLi{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.containerNavMenu ul a {
+    font-size: 16px;
+    color: rgb(85, 78, 78);
+    padding: 10px 10px 10px 5px;
+}
+.containerNavMenu a:hover{
+    background-color: rgb(248, 242, 242);
+    box-shadow: 0px 3px 0px 0px  rgb(228, 223, 223);
+}
+.menuPrincipalLi{
+    color:#f80032;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 1000px;
+}
+.menuPrincipalLi ul{
+    background-color: #fff;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: -15px;
+    display: flex;
+    flex-direction: column; 
+}
+.menuPrincipalLi ul li{
+    color: #000;
+    text-align: left;
+    margin-left: 10px;
+}
+.menuPrincipalLi ul li{
+    padding: 10px;
+    cursor: pointer;
+}
+.menuPrincipalLi ul{
+    display: none;
+}
+.menuPrincipalLi:hover ul{
+    display: block;
+    text-align: left; 
+}
+.menuPrincipalLi{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.containerNavMenu ul a {
+    font-size: 16px;
+    color: rgb(85, 78, 78);
+    padding: 10px 10px 10px 5px;
+}
+.containerNavMenu a:hover{
+    background-color: rgb(248, 242, 242);
+    box-shadow: 0px 3px 0px 0px  rgb(228, 223, 223);
+}
+
+/* ----- Descrição do Produto ----- */
+
+.product-specifications-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 60px;
+    transform: translateY(-200px);
+}
+#techical-details{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.product-specifications-wrapper h2{
+    color: rgb(58, 57, 57);
+    margin-bottom: 25px;
+}
+.techical-details td{
+    padding: 10px;
+    border-bottom: 2px solid color rgb(58, 57, 57);
+}
+.techical-details th{
+    padding-right: 70px;
+    border-bottom: 1px solid rgb(218, 207, 207);
+}
+.techical-details td{
+    border-bottom: 1px solid rgb(218, 207, 207);
+}
+.novo_hr {
+    width: 200px;
+    transform: translateY(-15px);
+    margin-right: 50px;
+}
+.corProduto p{
+    color: rgb(80, 78, 78);
+}
+
+/* ----- Informe Endereço Mobile-Display:None ----- */
+
+.informeEnderecoMobile{
+    display: none;
+}
+/* ----- container Product -----*/
+
+.container-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    margin-top: 0px;
+    height: 350px;
+    margin-bottom: 70px;
+    transform: translateY(-300px);
+    z-index: 0;
+    opacity: 1;
+}
+.nomeProduto{
+    display: none;
+}
+
+/* ----- container-Product2 -----*/
+
+.container-product2{
+    overflow: hidden;
+    width: 100%;
+    height: 350px;
+    transform: translateX(40px);
+}
+.w3-content{
+    width: 290px;   
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.w3-button{
+    background-color:#949393;
+    width: 20px;
+    height: 35px;
+    margin-bottom: 200px;
+}
+.w3-display-left{
+    margin-left: 30px;
+    transform: translateY(-200px);
+}
+.w3-display-right{
+    margin-left: 290px;
+    transform: translateY(-440px); 
+}
+.w3-display-none{
+    display: none !important;
+}
+.imagem-produto{
+    width: 350px;
+    height:310px;
+    margin-left: 20px;
+}
+
+/* ----- container-product3 -----*/
+
+.container-product3{
+    width:100%;
+    height: 100%;
+    transform: translateX(20px);
+}
+.container-product3 h3{
+    font-size: 1.438rem;
+    margin-bottom: 10px;
+}
+.avaliacao{
+    border-right: 1px solid rgb(0, 0, 0);
+    margin-right: 40px;
+}
+.banner-oferta{
+    width: 430px;
+    background-color: red;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#timer{
+    margin-left:5px;
+}
+.timer-termina{
+    font-size: 0.875rem;
+    font-weight: normal;
+    color: #f80032;
+    font-weight: bold;
+    margin-left: 100px;
+    text-transform: uppercase;
+    background-color: #fafafa;
+    padding: 5px;
+}
+.container-preco-frete{
+    margin-top: 10px;
+}
+.container-preco-frete input{
+    padding: 8px;
+    display: block;
+    margin-top: 10px;
+}
+.container-preco-frete button{
+    background-color: #cd0114;
+    color: #fff;
+    padding: 8px;
+    margin-left: 180px;
+    transform: translateY(-35px);
+}
+.preco-produto-container{
+    text-decoration: line-through;
+    color: rgb(82, 70, 70);
+    font-weight:bold;
+    margin-right: 20px;
+    font-size: 16px
+}
+.preco-p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #f80032; 
+}
+.desconto-produto{
+    margin-left: 10px;
+    font-size: 0.875rem;
+    background-color: #f80032;
+    padding: 2px;
+    border-radius:4px;
+    color: #fff;
+}
+.btn-cor{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cor-preto{
+    background-color: rgb(2, 2, 2);
+}
+.cor-rosa{
+    background-color: rgb(219, 109, 109);
+}
+.container-preco{
+    width: 350px;
+}
+.quantidade{
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(100, 90, 90);
+    margin-top: 20px;
+}
+.btn-produto{
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.comprar{
+    background-color:#f80032;
+    padding: 15px 20px;
+    color: #fff;
+}
+.adicionar{
+    padding: 15px 20px;
+    border: 1px solid #f80032;
+    color: #f80032;
+}
+.avaliacao{
+    display: none;
+}
+
+/* ----- banner ----- */
+
+.banner-final{
+    width: 100%;
+    height: 270px;
+    background-color:rgb(241, 91, 91);
+    overflow-x: hidden;
+}
+.container-banner{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: "texto cadastre"; 
+}
+.container-texto h3{
+    color: #fff;
+    font-size: 2.188rem;
+    margin-left: 80px;
+    margin-top: 20px;
+    line-height: 55px;
+}
+.container-texto p{
+    width: 270px;
+    margin-left: 80px;
+    margin-top: 10px;
+    line-height: 25px;
+    color: #fff;
+}
+.container-input{
+    width: 700px;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+.container-input input{
+    width: 35%;
+    height: 40px;
+    padding: 15px;
+    border-radius: 25px;
+    border-color: transparent;
+    margin-left: 10px;
+}
+.container-input button{
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    width: 20%;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+}
+
+/* ----- voltar ao inicio ----- */
+
+.topo-main-text{
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #cd0114;
+}
+.topo-main-text{
+    text-align: center
+}
+.topo-main-text a{
+    color: #fff; 
+}
+
+/* ----- Footer ----- */
+
+.footer{
+    background-color: #fff;
+    width: 100%;
+  
+}
+.container-footer{
+    background-color: #fff;
+    width: 80%;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 70px auto;
+}
+.novo-hr{
+    transform: translateY(-150px);
+    box-shadow:  1px 1px 15px #232323;
+}
+.h3-padrao {
+    margin-right: 70px;
+    width: 210px;
+}
+.h3-padrao h3{
+    font-size: 1rem;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.atendimento-sac h3::after{
+    content:'';
+    color: #000;
+    display: block;
+    background-image: url('../images/icone-telefone.png');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    margin-left: -35px;
+    transform: translateY(-20px);
+
+}
+.inicie-uma-conversa h3::after{
+    content:'';
+    color: #000;
+    display: block;
+    background-image: url('../images/icone-chat.png');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    margin-left: -35px;
+    transform: translateY(-20px);
+}
+.envie-um-email h3::after{
+    content:'';
+    color: #000;
+    display: block;
+    background-image: url('../images/icone-email.png');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    margin-left: -35px;
+    transform: translateY(-20px);
+}
+.troca-e-devolução h3::after{
+    content:'';
+    color: #000;
+    display: block;
+    background-image: url('../images/icone-progresso.png');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    margin-left: -35px;
+    transform: translateY(-20px);
+}
+.h3-padrao a{
+    text-decoration: underline;
+    color: #232323
+}
+.atendimento-sac span{
+    line-height: 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color:rgb(85, 78, 78);
+}
+/* ----- footer-final ----- */
+
+.container-logo-footer img{
+    color: #000;
+}
+.container-logo-footer h3{
+    font-size: 1.563rem;
+}
+.container-logo-footer ul{
+    display: flex;
+    flex-direction: row;
+}
+.container-logo-footer img{
+    width: 30px;
+    margin-right: 5px;
+}
+.icone-vtex-footer li img{
+    width: 70px;
+    margin-top: 70px;
+}
+
+/* ----- footer ----- */
+
+.container-footer-1{
+    display: flex;
+    justify-content: space-around;
+    transform: translateY(-50px);
+}
+.alterandoH3 h3{
+    margin-bottom: 20px;
+}
+.alterandoH3 ul{
+    list-style-type: none;
+}
+.alterandoH3 a{
+    text-transform: uppercase;
+    line-height: 25px;
+    font-size: 0.875;
+    color: #232323
+}
+.pagamento ul{
+    width: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.pagamento ul li{
+    margin-right: 8px;
+}
+
+.itens{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: rgb(65, 55, 55);
+    position: relative;
+    z-index: 1; 
+}
+.sidebar{
+    display: none;
+}
+
+@media (max-width: 1220px) {
+   
+    .container-input{
+        width: 150%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        margin-left: 250px;
+    }
+    .container-input input{
+        margin-bottom: 30px;
+    }
+    .container-input button{
+        margin-left: 80px;
+    }
+    
+}
+@media (max-width: 1030px){
+body{
+
+   color: #cdcdcd;
+   font-family: "Avenir Next", "Avenir", sans-serif;
+}
+.container-menu-header{
+    display: flex;
+    display: block;
+    height: 50px;
+    background-color: #f80032;
+    transform: translateY(50px);
+}
+/* ----- Menu-Mobile ----- */
+
+.sidebar h3{
+    width: 150px;
+    margin-left: 25px;
+    margin-top: 10px;
+    color:#f80032
+}
+.sidebar hr{
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.sidebar {
+    height: 550px;
+    display: block;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    padding-left: 0px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px #f80032;
+  }
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.563rem;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 2.25rem;
+    margin-left: 50px;
+  }
+  .openbtn {
+    font-size: 1.563rem;
+    cursor: pointer;
+    background-color: #f80032;
+    color: #fff;
+    padding: 5px 5px;
+    border: none;
+    margin-left: -10px;
+    transform: translateY(-75px);
+  }
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
+/* ----- Logo-Mobile -----*/
+
+ .logo img{
+    margin: 0 auto;
+    width: 140px;
+    height: 55px;
+    margin-left: 40px;
+    transform: translateY(-5px);
+}
+.informeCepNone{
+    display: block;
+}
+.paragrafoNone{
+    display: none;
+}
+
+/* ----- Login - 1030px ----- */
+
+.login-header{
+    margin-left: 140px;
+    transform: translateY(38px);
+}
+.login-header::after{
+    content: '';
+    display: block;
+    max-width: 35px;
+    height: 35px;
+    position: relative;
+    top:-13px;
+    left: 2px;
+    background-image: url(../images/Grupo\ de\ máscara\ 3.png);
+    background-size: cover;
+    background-position: center;
+}
+.login-header::before{
+    display: none;
+}
+
+/* ---- pesquisa header ----- */
+
+.pesquisa-header{
+    width: 140%;
+}
+
+/* ----- icone header ----- */
+
+.icone-header{
+    margin-top: 14px;
+}
+.icone-header img{
+    width: 35px;
+    height: 35px;
+}
+
+/* ----- informe endereço mobile ----- */
+
+.informeEnderecoMobile{
+    background-color: #c20011;
+    height: 28px;
+    border-top: 1px solid #f80032;
+}
+.informeEnderecoMobile p:hover{
+    width: 135px;
+    padding: 2px 5px;
+    background-color: #cd0114;
+}
+.informeEnderecoMobile a p{
+    margin-top: 3px;
+    margin-left: 30px;
+    color: #fff;
+    padding: 2px 5px;   
+}
+.informeEnderecoMobile a p::after{
+    content:'';
+    display: block;
+    background-image: url('../images/Grupo\ de\ máscara\ 1.svg');
+    background-size: cover;
+    width: 17px;
+    height: 16px;
+}
+
+/* ----- container Menu Principal Desktop ----- */
+
+.containerMenuPrincipal{
+    display: none;
+} 
+
+/* ----- Banner ----- */
+
+.banner-final{
+     height: 360px;
+}
+.container-banner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;     
+}
+.container-texto{
+    width: 100%;   
+    margin: 0 auto;
+}
+.container-texto h3{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 1.438rem;
+    margin-bottom: 10px;
+}
+.container-texto p{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 1rem;
+}
+.container-input{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin: 0 auto;
+}
+.container-input input{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.container-input button{
+    width: 100%;
+    margin-left: 10px;
+    margin: 0 auto;
+}
+
+/* ----- container menu header -----*/
+
+.container-menu-header{
+    display: flex;
+    display: block;
+    height: 50px;
+    background-color: #f80032;
+    transform: translateY(-70px);
+}
+
+/* ----- container-product2 ----- */
+
+.container-product2{
+    overflow: hidden;
+    width: 100%;
+    height: 350px;
+    transform: translateX(-120px);
+}
+
+/* ----- container-product3 ----- */
+
+.container-product3{
+    transform: translateX(-10px);
+    width:100%;
+    height: 100%;   
+  }
+}
+@media(max-width:900px){
+  /* ----- container footer ----- */
+
+    .container-footer{
+        width: 590px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 230px;
+        text-align: center;
+    }
+    .h3-padrao h3{
+        color:#232323;
+        font-size: 1.063rem;
+        transform: translateY(20px);
+    }
+    .container-footer-1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .alterandoH3{
+        color:rgb(46, 38, 38);
+        text-align: center;
+    }
+   
+    .container-logo-footer h3{
+        font-size: 35px;
+        margin-bottom: 20px;
+        text-align: center; 
+    }
+    .container-logo-footer ul a {
+        margin-right: 20px;
+    }
+    .container-logo-footer a li img{
+        width: 25px;
+        margin-left: 25px;
+    }
+    .container-logo-footer ul {
+        transform: translateX(-10px);
+    }
+    .useEnext1{
+        width: 900px;
+    }
+    .ulUseEnext ul{
+        display: none;
+    }
+    .icone-vtex-footer {
+        margin-bottom: 30px;
+        margin-left: 50px
+    }
+    .ulUseEnext h3::after{
+        content: '';
+        background-image: url('../images/Grupo\ 1.svg');
+        background-size: cover;
+        display: inline-block;
+        width: 6px;
+        height:12px;
+        margin-left: 20px;
+        transform: rotate(85deg);
+    }
+    .ulUseEnext:hover ul{
+        display: block;
+        text-align: left;
+    }
+    .container-footer-1{
+        width:100%;
+        margin: 0 auto;
+    }
+    .pagamento ul{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .pagamento{
+        text-align: center;
+    }
+    .openbtn {
+        font-size: 25px;
+        cursor: pointer;
+        background-color: #f80032;
+        color: #fff;
+        padding: 5px 5px;
+        border: none;
+        margin-left: -10px;
+        transform: translateY(-75px);
+    
+      }
+}
+@media (max-width: 850px){
+
+/* ----- logo ----- */
+
+.logo{
+    margin-bottom: 5px;
+}
+
+/* ----- pesquisa-header -----*/
+
+.pesquisa-header input{
+    display:  none;    
+}
+.pesquisa-header{
+    width: 100px;  
+}
+
+/* ----- container header ----- */
+.container{
+    grid-template-areas: 1fr 10px 50px 1fr;
+}
+
+.pesquisa-header button{
+    margin-left: 50px;
+    width: 35px;
+    height: 35px;
+    margin-top: 8px;
+    background-color: #f80032;
+
+}
+.pesquisaHeaderMobile{
+    display: block;
+}
+
+/* ----- login-header ----- */
+
+.login-header{
+    display: block;
+    max-width: 50px;   
+}
+
+/* ----- icone-header ----- */
+
+.icone-header{
+    padding-right: 0px;
+}
+
+/* ----- login-header ----- */
+
+.login-header::after{
+    content: '';
+    display: block;
+    max-width: 35px;
+    height: 35px;
+    position: relative;
+    background-image: url(../images/Grupo\ de\ máscara\ 3.png);
+    background-size: cover;
+    background-position: center;   
+}
+
+/* ----- pesquisa-header-mobile ----- */
+
+.pesquisaHeaderMobile input{
+    padding: 10px;
+    width: 90% !important;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-color: transparent;
+}
+.pesquisaHeaderMobile button{
+    position: relative;
+    left: 14px;
+    background-color: #f80032;
+    color: #fff;
+    font-weight: bold;
+    height: 36px;
+    width: 50px;
+    border-color: 1px solid #f80032;
+}
+
+.containerMenuPrincipal{
+    display: none;
+}  
+.openbtn {
+    font-size: 1.563rem;
+    cursor: pointer;
+    background-color: #f80032;
+    color: #fff;
+    padding: 5px 5px;
+    border: none;
+    margin-left: 10px;
+    transform: translateY(-125px);
+
+  }
+}
+@media (max-width: 700px){
+body{
+    overflow-X: hidden;
+} 
+/* ----- pesquisa-header ----- */
+
+.pesquisa-header{
+    display: none;
+}
+
+/* ----- informe-cep-none ----- */
+
+.informeCepNone{
+    display: none;
+}
+
+/* ----- icone-header ----- */
+
+.icone-header{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.icone-header img{
+    width: 30px;
+}
+.icone-header img{
+    margin-right: 15px;
+}
+
+/* ----- login-header ----- */
+
+.login-header{
+    margin-left: 60px;
+}
+.login-header::after{
+    content: '';
+    display: block;
+    max-width: 30px;
+    height: 30px;
+    transform: translateY(7px);
+    margin-left: 20px;
+    background-image: url(../images/Grupo\ de\ máscara\ 3.png);
+    background-size: cover;
+    background-position: center;    
+}
+.noneMenu{
+    display: none;
+}
+.apagar{
+    display: block;
+    margin-top: 20px;
+}
+
+/* ----- pesquisa-header-mobile ----- */
+
+.pesquisaHeaderMobile{
+    display: block;
+    width: 98%;
+    height: 50px;
+    background-color: #f80032;
+}
+.pesquisaHeaderMobile input{
+    padding: 10px;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-color: transparent;
+}
+.pesquisaHeaderMobile input::placeholder{
+    color: rgb(119, 112, 112);
+}
+
+
+.menuHeaderNone{
+    display: none;;
+}
+
+/* ----- menu-header ----- */
+
+.menu-header{
+    transform: translateX(-20px);
+    border-bottom: 1px solid #f80032;
+}
+.menu-header ul{
+    margin-left: 10px;
+}
+.menu-header ul li { 
+    font-size: 0.875rem;
+}
+
+/* ----- informe-endereco-mobile -----*/
+
+.informeEnderecoMobile{
+    background-color: #c20011;
+    height: 28px;
+    border-top: 1px solid #f80032;
+    display: block;
+    transform: translateY(-95px);
+}
+.informeEnderecoMobile p:hover{
+    width: 135px;
+    padding: 5px 5px;
+    background-color: #cd0114;
+}
+.informeEnderecoMobile a p{
+    margin-top: 1px;
+    margin-left: 30px;
+    color: #fff;
+    padding: 6px 5px;    
+}
+.informeEnderecoMobile a p::after{
+    content:'';
+    display: block;
+    background-image: url('../images/Grupo\ de\ máscara\ 1.svg');
+    background-size: cover;
+    width: 17px;
+    height: 16px;
+    margin-left: -20px;
+    transform: translateY(-20px);
+}
+
+.menuHeaderNone1{
+    display: none;   
+}
+.menu-header-baixo{
+    display: none;
+}
+
+/* ----- container-product ----- */
+
+.container-product{
+    display: grid;
+    grid-template-columns: 100%;
+    margin-bottom: 750px;
+    width: 100%;
+    margin-left: 80px;
+    }
+.w3-content{
+    margin-left: -10px;
+}
+/* ----- container-product2 ----- */
+
+.container-product2{
+    display: block;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+/* ----- container-product3 ----- */
+
+.container-product3{
+    width: 100vw;
+    transform: translateY(100px);
+    transform: translateX(-70px);
+}
+.nomeProduto{
+    display: block;
+    color: rgb(78, 64, 64);
+    text-align: left;
+    margin-bottom: 20px;
+}
+.nomeProdutoBaixo{
+    display: none;
+}
+.avaliacaoNone{
+    display: none;
+}
+.avaliacaoBlock{
+    display: block;
+}
+.imagem-produto{
+    width: 350px;
+    height:310px;
+    margin-left: 20px;
+}  
+.corProduto{
+    color: rgb(80, 78, 78);
+    margin-left: 25px; 
+}
+   
+.container-product3{  
+    width:100%;
+    height: 100%;
+    transform: translateX(-80px);
+    margin-top: 50px;
+}
+.avaliacao{
+    border-right: 1px solid rgb(0, 0, 0);
+    margin-right: 40px;
+}
+.banner-oferta{
+    background-color: #f80032;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 100%;   
+}
+#timer{
+    margin-left:5px;
+}
+.timer-termina{
+    font-size: 0.875rem;
+    font-weight: normal;
+    margin-left: 126px;
+    text-transform: uppercase;
+}
+.preco-produto-container{
+    text-decoration: line-through;
+    color: rgb(82, 70, 70);
+    font-weight:bold;
+    margin-left: 20px;
+    font-size: 1rem;
+    display: block;
+    margin-top: 10px;
+}
+.valorPromocao{
+    display: block;
+    margin-left: 22px;
+    margin-top: 15px;
+}
+.preco-p{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #f80032;  
+}
+.desconto-produto{
+    display: inline-block;
+    margin-left: 160px;
+    transform: translateY(-27px);
+    font-size:0.75rem;
+    background-color: #cd0114;
+    padding: 2px;
+    border-radius:4px;
+    color: #fff;
+    }
+.btn-cor{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.cor-rosa{
+    background-color: rgb(0, 0, 0);
+}
+.cor-azul{
+    background-color: rgb(202, 113, 113);
+}
+.container-preco-frete{
+    margin-left: 25px;
+}
+.container-preco-frete span{
+    color: rgb(83, 81, 81);
+} 
+.quantidade{
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(100, 90, 90);
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.quantidade input{
+    padding: 2px;
+}
+.btn-produto{
+    display: block;
+    width: 90%;
+    margin-left: 25px;
+    margin-top: 20px;    
+}
+.comprar{
+    background-color:rgb(187, 30, 30);
+    padding: 15px 20px;
+    color: #fff;
+}
+.adicionar{
+    padding: 15px 20px;
+    border: 1px solid #f80032;
+    color: #f80032;
+}
+.openbtn {
+    font-size: 1.563rem;
+    cursor: pointer;
+    background-color: #f80032;
+    color: #fff;
+    padding: 5px 5px;
+    border: none;
+    margin-left: 10px;
+    transform: translateY(-125px);
+}
+.product-specifications-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 20px;
+    transform: translateY(-300px);
+}
+#techical-details{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.product-specifications-wrapper h2{
+    color: rgb(58, 57, 57);
+    margin-bottom: 25px;
+}
+.techical-details td{
+    color:rgb(46, 38, 38)
+}
+.techical-details th{
+    color:rgb(46, 38, 38);
+}
+.techical-details td{
+    border-bottom: 1px solid rgb(218, 207, 207);
+}
+.swiper {
+    width: 90%;
+    transform: translateY(-150px) !important;
+    margin-bottom: 10px;
+}
+.product-specifications-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 20px;
+    transform: translateY(-200px);
+  }
+}
+
+/* ----- vitrine utilizando Swiper ----- */
+
+.swiper {
+    width: 90%;
+    height: 370px;
+    transform: translateY(-150px);
+    margin-bottom: 10px;
+  }
+.swiper-slide {
+    text-align: center;
+    font-size: 1.125rem;
+    width: 100px;
+    height: 200px;
+ 
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.swiper-button-pagination{
+    margin-top: 500px;
+}
+.swiper-slide span a{
+    display: block;
+    color: rgb(46, 38, 38);
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    transform: translateX(-20px)
+}
+.swiper-slide span a p{
+    text-align: left;
+    font-size: 0.875rem;  
+}
+.container-preco-juros{
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    transform: translateX(-20px);
+}
+.especial-juros{
+    width: 120px;
+    border-right: 2px solid #000;
+    font-size: 1rem;
+    text-align:right;
+    margin-right: 100px;
+    padding-right: 10px;
+}
+.preco-vitrine{
+    margin-left: 10px;
+}
+.preco-vitrine p{
+    font-size: 1.375rem;
+    font-weight:bold;
+    line-height: 30px;
+}
+.swiper-slide span button{
+    padding: 10px;
+    width: 150px;
+    height:50px;
+    margin-left: -30px;
+    border: 1px solid #f80032;
+    border-radius: 30px;
+    border-color:#f80032;
+    font-size:1rem;
+    color: #f80032;
+}
+.sumir{
+    color: rgb(156, 149, 149);
+    text-decoration: line-through;
+}
+.juros p{
+    color: #f80032;
+}
+#button-perso{
+    width: 70px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: #f80032;
+    transform: translateY(14px); 
+}
+#button-perso::after{
+      content: '';
+      display: block;
+      width: 35px;
+      height: 35px;
+      transform: translateY(-8px);
+      margin-left: 5px;
+      background-image: url('../images/cestoLoja.png');
+      background-size: cover;
+  }
+
+  /* ----- container-copy -----*/
+
+  .containerCopy
+  {
+      width: 100%;
+      background-color: #000;
+      padding: 10px;
+  }
+  .containerCopy p{
+      color: #fff;
+      text-align: center;
+  }
+
+  
+ 
